@@ -8,7 +8,6 @@ use Filament\Pages\Page;
 
 final class Overview extends Page
 {
-    protected static string $view = 'feature-flags-filament::overview';
+    protected string $view = 'feature-flags-filament::overview';
     protected static ?string $title = 'Feature Flags';
 }
-
