@@ -13,4 +13,3 @@ final class FeatureFlagsFilamentServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'feature-flags-filament');
     }
 }
-
